@@ -1,0 +1,20 @@
+18:27:49.398 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+18:27:49.634 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+18:27:57.155 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - padel-27c21-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 206ms, init: 0ms
+18:27:57.269 [NamespaceSystem-blocking-namespace-operation-dispatcher-7] INFO com.firebase.core.namespace.StateManager - Namespace padel-27c21-default-rtdb status Active to Active
+18:28:34.707 [FirebaseWorkerPool-1-3] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace padel-27c21, but the emulator is configured for padel-27c21-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+18:28:34.719 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - padel-27c21 successfully activated FBKV (SurveyIdle(0)) wait: 6ms, init: 0ms
+18:29:22.867 [FirebaseWorkerPool-1-3] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace fake-server, but the emulator is configured for padel-27c21,padel-27c21-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+18:29:22.876 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms
+18:30:32.351 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+18:30:32.395 [NamespaceSystem-akka.actor.default-dispatcher-12] INFO com.firebase.core.namespace.Terminator$Terminator - 3 actors left to terminate: padel-27c21-default-rtdb, fake-server, padel-27c21
+18:30:32.402 [NamespaceSystem-akka.actor.default-dispatcher-12] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for padel-27c21-default-rtdb
+18:30:32.402 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for fake-server
+18:30:32.402 [NamespaceSystem-akka.actor.default-dispatcher-20] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for padel-27c21
+18:30:32.410 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
